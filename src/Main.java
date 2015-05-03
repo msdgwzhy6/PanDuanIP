@@ -5,6 +5,11 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		String ip = "192.168.1.108", ip2 = "192.168.0.154";
+/*		String[] sip=ip.split("\\."); //以正则表达，来切割取子串;
+		for (int i = 0; i < sip.length; i++) {
+			System.out.println(sip[i]);
+		}*/
+//		System.out.println(sip.length);
 		int content1 = -1, content2 =-1, content3 = -1, content4 = -1;
 		int dian1, dian2, dian3;
 		dian1 = ip.indexOf(".", 0);
